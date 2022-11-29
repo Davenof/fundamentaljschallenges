@@ -27,7 +27,7 @@ INFORMATION
      <h3>lifePhase()</h3>
      <p>
       Write a function, <code>lifePhase()</code>, that takes in a person’s age, as a number, and returns which phase of life they are in.
-      
+      </p>
        <ul>
         Here are the classifications: <br><br>
         0-3 should return <code>'baby'</code> <br>
@@ -37,7 +37,7 @@ INFORMATION
         65-140 should return <code>'senior citizen'</code> <br>
         If the number is less than 0 or greater than 140, the program should return <code>'This is not a valid age'</code>
       </ul>
-     </p>
+
     </li>
  
  <p> &nbsp; </p>
@@ -138,7 +138,7 @@ INFORMATION
      I am so _______<code>(adjective)</code>_____ because I _____<code>(verb)</code>_____ coding! Time to write some more awesome _____<code>(noun)</code>_____!
     </p>
       Therefore, <code>sillySentence('excited', 'love', 'functions')</code> should return:
-      <em>'I am so excited because I love coding! Time to write some more awesome functions!'</em>
+      <code>'I am so excited because I love coding! Time to write some more awesome functions!'</code>
     </p>
    </div>
   </li>

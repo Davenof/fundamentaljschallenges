@@ -24,20 +24,19 @@ INFORMATION
  
   <p> &nbsp; </p>
     <li>
-     <h3>lifePhase()</h3>
-     <p>
-      Write a function, <code>lifePhase()</code>, that takes in a person’s age, as a number, and returns which phase of life they are in.
-      </p>
-       <ul>
-        Here are the classifications: <br><br>
-        0-3 should return <code>'baby'</code> <br>
-        4-12 should return <code>'child'</code> <br>
-        13-19 should return <code>'teen'</code> <br>
-        20-64 should return <code>'adult'</code> <br>
-        65-140 should return <code>'senior citizen'</code> <br>
-        If the number is less than 0 or greater than 140, the program should return <code>'This is not a valid age'</code>
-      </ul>
-
+       <h3>lifePhase()</h3>
+        <p>
+          Write a function, <code>lifePhase()</code>, that takes in a person’s age, as a number, and returns which phase of life they are in.
+        </p>
+        <p>
+           Here are the classifications: <br><br>
+           0-3 should return <code>'baby'</code> <br>
+           4-12 should return <code>'child'</code> <br>
+           13-19 should return <code>'teen'</code> <br>
+           20-64 should return <code>'adult'</code> <br>
+           65-140 should return <code>'senior citizen'</code> <br>
+           If the number is less than 0 or greater than 140, the program should return <code>'This is not a valid age'</code>
+        </p>
     </li>
  
  <p> &nbsp; </p>

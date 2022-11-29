@@ -135,7 +135,7 @@ INFORMATION
    <div>
     Write a function, <code>sillySentence()</code>, that has 3 string parameters and returns the following silly sentence with the blanks filled in by the arguments passed into the function:
     <p>
-     I am so _______adjective_____ because I _____verb_____ coding! Time to write some more awesome _____(noun)_____!
+     I am so _______<code>(adjective)</code>_____ because I _____<code>(verb)</code>_____ coding! Time to write some more awesome _____<code>(noun)<code>_____!
     </p>
        <p>
          Therefore, <code>sillySentence('excited', 'love', 'functions')</code> should return:

@@ -132,24 +132,26 @@ INFORMATION
  <p> &nbsp; </p>
  <li>
    <h3>sillySentence()</h3>
-   <p>
+   <div>
     Write a function, <code>sillySentence()</code>, that has 3 string parameters and returns the following silly sentence with the blanks filled in by the arguments passed into the function:
     <p>
      I am so _______adjective_____ because I _____verb_____ coding! Time to write some more awesome _____(noun)_____!
- 
+    </p>
        <p>
          Therefore, <code>sillySentence('excited', 'love', 'functions')</code> should return:
          <em>'I am so excited because I love coding! Time to write some more awesome functions!'</em>
        </p>
-    </p>
-   </p>
+   </div>
   </li>
  
  <p> &nbsp; </p>
  <li>
    <h3>howOld()</h3>
    <div>
-    Write a function, <code>howOld()</code>, that has two number parameters, <code>age</code> and <code>year</code>, and returns how old someone who is currently that age was (or will be) during that year. Handle three different cases:
+    Write a function, <code>howOld()</code>, that has two number parameters, <code>age</code> and <code>year</code>, and returns how old someone who is currently that age was (or will be) during that year. 
+    <br><br>
+    Handle three different cases:
+    <br><br>
     <p>
             If the year is in the future, you should return a string in the following format:<br>
              <code>'You will be [calculated age] in the year [year passed in]'</code>

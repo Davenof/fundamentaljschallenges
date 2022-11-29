@@ -1,7 +1,7 @@
 # fundamentaljschallenges
 INFORMATION
 <ul>
- <li>The challenges below are fundamental to JavaScript mastery for people whose knowledge of the language is below intermediate. See my intermediatejschallenges repository for intermediate challenges.</li>
+ <li>The challenges below are fundamental to JavaScript mastery for people whose knowledge of the language is below intermediate. See my <a href="https://github.com/Davenof/intermediatejschallenges" target="_blank">intermediatejschallenges repository</a> for intermediate challenges.</li>
  <li>See the <code>challenges.js</code> file in this repository for my solutions to the challenges. The challenges serial numbers in the file correspond with their numbers below.</li>
  </ul>
  

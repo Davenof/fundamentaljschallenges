@@ -39,28 +39,43 @@ INFORMATION
    <p><strong></strong></p>
    <p></p>
   </li>
+ 
+ <p> &nbsp; </p>
  <li>
    <p><strong></strong></p>
    <p></p>
   </li>
+ 
+ <p> &nbsp; </p>
  <li>
-   <p><strong></strong></p>
-   <p></p>
+   <h3><strong>sillySentence()</strong></h3>
+   <p>
+    Write a function, sillySentence(), that has 3 string parameters and returns the following silly sentence with the blanks filled in by the arguments passed into the function:
+    <ul>
+     I am so _______adjective_____ because I _____verb_____ coding! Time to write some more awesome _____(noun)_____!
+     
+     <br><br>
+     Therefore, <code>sillySentence('excited', 'love', 'functions')</code> should return:
+     <span style="font-style: italic;">'I am so excited because I love coding! Time to write some more awesome functions!'</span>
+    </ul>
+   </p>
   </li>
+ 
+ <p> &nbsp; </p>
  <li>
    <h3><strong>howOld()</strong></h3>
    <p>
     Write a function, howOld(), that has two number parameters, age and year, and returns how old someone who is currently that age was (or will be) during that year. Handle three different cases:
    <ul>
-     <li>If the year is in the future, you should return a string in the following format:<br>
+     <li>If the year is in the future, you should return a string in the following format:<br><br>
       <code>'You will be [calculated age] in the year [year passed in]'</code>
-    </li>
+     </li>
       
-     <li>If the year is before they were born, you should return a string in the following format:<br>
+     <li>If the year is before they were born, you should return a string in the following format:<br><br>
       <code>'The year [year passed in] was [calculated number of years] years before you were born'</code>
-    </li>
+     </li>
 
-    <li>If the year is in the past but not before the person was born, you should return a string in the following format:<br>
+    <li>If the year is in the past but not before the person was born, you should return a string in the following format:<br><br>
       <code>'You were [calculated age] in the year [year passed in]'</code>
     </li>
   </ul>

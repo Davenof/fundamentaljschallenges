@@ -7,47 +7,84 @@ INFORMATION
  
  <p>CHALLENGES</p>
  <ol>
-   <p> &nbsp; </p>
     <li>
-     <h3></h3>
-     <p></p>
+     <h3>canIVote()</h3>
+     <p>
+      The most common minimum age to vote is 18. Write a function <code>canIVote()</code> that takes in a number, representing the person’s age, and returns the boolean <code>true</code> if they are 18 years old or older, and the boolean <code>false</code> if they are not.
+     </p>
     </li>
  
   <p> &nbsp; </p>
     <li>
-     <h3></h3>
-     <p></p>
+     <h3>agreeOrDisagree()</h3>
+     <p>
+      Write a function, <code>agreeOrDisagree()</code>, that takes in two strings, and returns <code>'You agree!'</code> if the two strings are the same and <code>'You disagree!'<</code> if the two strings are different.
+     </p>
     </li>
  
   <p> &nbsp; </p>
     <li>
-     <h3></h3>
-     <p></p>
+     <h3>lifePhase()</h3>
+     <p>
+      Write a function, <code>lifePhase()</code>, that takes in a person’s age, as a number, and returns which phase of life they are in.
+      
+       <ul>
+        Here are the classifications: <br><br>
+        0-3 should return <code>'baby'</code> <br>
+        4-12 should return <code>'child'</code> <br>
+        13-19 should return <code>'teen'</code> <br>
+        20-64 should return <code>'adult'</code> <br>
+        65-140 should return <code>'senior citizen'</code> <br>
+        If the number is less than 0 or greater than 140, the program should return <code>'This is not a valid age'</code>
+      </ul>
+     </p>
     </li>
  
  <p> &nbsp; </p>
    <li>
-    <h3></h3>
-    <p></p>
+    <h3>finalGrade()</h3>
+    <p>
+     Write a function, <code>finalGrade()</code>. It should:
+    <ul>
+      <li>take three arguments of type number</li>
+      <li>find the average of those three numbers</li>
+      <li>return the letter grade (as a string) that the average corresponds to</li>
+     <li>return <code>‘You have entered an invalid grade.’</code> if any of the three grades are less than 0 or greater than 100</li>
+    </ul>
+     <p>
+      0-59 should return: <code>'F'</code> <br>
+      60-69 should return: <code>'D'</code> <br>
+      70-79 should return: <code>'C'</code> <br>
+      80-89 should return: <code>'B'</code> <br>
+      90-100 should return: <code>'A'</code>
+     </p>
+    </p>
    </li>
  
  <p> &nbsp; </p>
   <li>
-   <h3></h3>
-   <p></p>
+   <h3>reportingForDuty()</h3>
+   <p>
+    Write a function, <code>reportingForDuty()</code>, that has two string parameters, <code>rank</code> and <code>lastName</code>, and returns a string in the following format: <br><br> 
+    <code>‘rank lastName reporting for duty!’</code>. <br><br> 
+    Therefore, <code>reportingForDuty('Private', 'Fido') </code> should return <code>'Private Fido reporting for duty!'</code>
+
+   </p>
   </li>
  
  
  <p> &nbsp; </p>
   <li>
-   <h3></h3>
-   <p></p>
+   <h3>rollTheDice()</h3>
+   <p>
+    Write a function, <code>rollTheDice()</code>, which simulates two dice being rolled and totalled. The code should always return a whole number between 1 and 12.
+   </p>
   </li>
  
  
  <p> &nbsp; </p>
  <li>
-   <h3></h3>
+   <h3>calculateWeight()</h3>
    <p>
      Though an object’s mass remains consistent throughout the universe, weight is determined by the force of gravity on an object. Since different planets        have different gravity, the same object would weigh different amounts on each of those planets! Cool, huh?
      <br><br>
@@ -59,14 +96,14 @@ INFORMATION
         <li>return a number representing what that Earth-weight would equate to on the planet passed in.</li>
   </ul>
   <ul>
-        Handle the following cases:
+   <p>Handle the following cases:</p>
    <br><br>
-        'Mercury' weight = earthWeight * 0.378<br>
-        'Venus' weight = earthWeight * 0.907<br>
-        'Mars' weight = earthWeight * 0.377<br>
-        'Jupiter' weight = earthWeight * 2.36<br>
-        'Saturn' weight = earthWeight * 0.916<br>
-        For all other inputs, return 'Invalid Planet Entry. Try: Mercury, Venus, Mars, Jupiter, or Saturn.'
+   'Mercury' weight = <code>earthWeight</code> * 0.378<br>
+   <code>'Venus'</code> weight = <code>earthWeight</code> * 0.907<br>
+        <code>'Mars'</code> weight = <code>earthWeight</code> * 0.377<br>
+        <code>'Jupiter'</code> weight = <code>earthWeight</code> * 2.36<br>
+        <code>'Saturn'</code> weight = <code>earthWeight</code> * 0.916<br>
+        For all other inputs, return <code>'Invalid Planet Entry. Try: Mercury, Venus, Mars, Jupiter, or Saturn.'</code>
   </ul>
    </p>
   </li>
@@ -76,7 +113,7 @@ INFORMATION
  <li>
    <h3>truthyOrFalsy()</h3>
    <p>
-    It can be hard to keep track of what’s truthy or falsy in JavaScript. Write a function, <code>truthyOrFalsy()</code>, that takes in any value and returns true if that value is truthy and false if that value is falsy.
+    It can be hard to keep track of what’s truthy or falsy in JavaScript. Write a function, <code>truthyOrFalsy()</code>, that takes in any value and returns <code>true</code> if that value is truthy and <code>false</code> if that value is falsy.
    </p>
   </li>
  
@@ -137,13 +174,13 @@ INFORMATION
 
   <p>Here’s how it’s supposed to calculate the relationship:</p>
   <ul>
-     100 should return 'You are likely identical twins.'<br>
-     35-99 should return 'You are likely parent and child or full siblings.'<br>
-     14-34 should return 'You are likely grandparent and grandchild, aunt/uncle and niece/nephew, or half siblings.'<br>
-     6-13 should return 'You are likely 1st cousins.'<br>
-     3-5 should return 'You are likely 2nd cousins.'<br>
-     1-2 should return 'You are likely 3rd cousins.'<br>
-     0 should return 'You are likely not related.'
+     100 should return <code>'You are likely identical twins.'</code> <br>
+     35-99 should return <code>'You are likely parent and child or full siblings.'</code> <br>
+     14-34 should return <code>'You are likely grandparent and grandchild, aunt/uncle and niece/nephew, or half siblings.'</code> <br>
+     6-13 should return <code>'You are likely 1st cousins.'</code> <br>
+     3-5 should return <code>'You are likely 2nd cousins.'</code> <br>
+     1-2 should return <code>'You are likely 3rd cousins.'</code> <br>
+     0 should return <code>'You are likely not related.'</code>
   </ul>
    </p>
   </li>

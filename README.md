@@ -148,21 +148,21 @@ INFORMATION
  <p> &nbsp; </p>
  <li>
    <h3>howOld()</h3>
-   <p>
+   <div>
     Write a function, <code>howOld()</code>, that has two number parameters, <code>age</code> and <code>year</code>, and returns how old someone who is currently that age was (or will be) during that year. Handle three different cases:
-        <div>
+    <p>
             If the year is in the future, you should return a string in the following format:<br>
              <code>'You will be [calculated age] in the year [year passed in]'</code>
-
-             <br><br>
+    </p>
+    <p>
             If the year is before they were born, you should return a string in the following format:<br>
              <code>'The year [year passed in] was [calculated number of years] years before you were born'</code>
-
-            <br><br>
+    </p>
+    <p>
            If the year is in the past but not before the person was born, you should return a string in the following format:<br>
              <code>'You were [calculated age] in the year [year passed in]'</code>
-       </div>
-  </p>
+    </p>
+  </div>
   </li>
  
   <p> &nbsp; </p>
